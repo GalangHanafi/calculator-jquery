@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+  <title>Calculator</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#e6e6e6] min-h-screen flex justify-center items-center text-[#cfcfcf]">
+  <div class="mockup-phone">
+    <div class="camera"></div>
+    <div class="display">
+      <div class="artboard artboard-demo phone-1">
+        <div class="bg-black w-full h-full rounded-3xl p-7">
+          <div class="mt-5">
+            <input id="equation" class="bg-black text-white w-full max-w-xs text-end h-14" disabled value="" />
+            <input id="display" class="bg-black text-white w-full max-w-xs text-end text-7xl h-16" disabled value="0" />
+          </div>
+          <div class="grid grid-cols-4 text-xl font-medium gap-4 mt-6 text-white">
+            <button disabled></button>
+            <button class="bg-[#a5a5a5] text-black h-[3.38rem] rounded-full" id="clear">AC</button>
+            <button class="bg-[#a5a5a5] text-black h-[3.38rem] rounded-full" id="mod">%</button>
+            <button class="bg-[#a5a5a5] text-black h-[3.38rem] rounded-full" id="div">/</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="7">7</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="8">8</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="9">9</button>
+            <button class="bg-[#ff9f0a] h-[3.38rem] rounded-full" id="mul">x</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="4">4</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="5">5</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="6">6</button>
+            <button class="bg-[#ff9f0a] h-[3.38rem] rounded-full" id="sub">-</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="1">1</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="2">2</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="3">3</button>
+            <button class="bg-[#ff9f0a] h-[3.38rem] rounded-full" id="add">+</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full col-span-2 text-start px-[0.85rem]" id="0">0</button>
+            <button class="bg-[#333333] h-[3.38rem] rounded-full" id="dec">.</button>
+            <button class="bg-[#ff9f0a] h-[3.38rem] rounded-full" id="equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
