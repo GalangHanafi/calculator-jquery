@@ -24,5 +24,5 @@ The calculator project allows users to perform basic arithmetic operations such 
 
 ## Usage
 
-To use the calculator, simply click on the numeric buttons to input numbers and use the operator buttons to perform operations. The result will be displayed in the display area. [demo](https://jquery.com/download/)
+To use the calculator, simply click on the numeric buttons to input numbers and use the operator buttons to perform operations. The result will be displayed in the display area. [demo](https://galanghanafi.github.io/calculator-jquery/)
 
